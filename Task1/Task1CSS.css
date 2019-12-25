@@ -1,0 +1,39 @@
+
+.first {
+    width: 250px;
+    height: 150px;
+    border: 1px dashed red;
+    margin: 5px auto 16px;
+    background-color: aqua;
+    text-align: center;
+
+
+}
+
+.second {
+    width: 250px;
+    height: 150px;
+    outline: 1px dotted red;
+    margin: auto auto 12px;
+    background-color: yellow;
+    text-align: center;
+}
+
+.third {
+    width: 250px;
+    height: 150px;
+    border: 15px inset blue;
+    margin: auto auto 12px;
+    background-color: aqua;
+    text-align: center;
+}
+
+.fourth {
+    width: 250px;
+    height: 150px;
+    border-left: 6px solid black;
+    margin: auto auto 12px;
+    background-color: aqua;
+    text-align: center;
+}
+
