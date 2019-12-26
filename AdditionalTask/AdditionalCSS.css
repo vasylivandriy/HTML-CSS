@@ -1,0 +1,392 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    border: 2px solid black;
+    width: 100%;
+    height: 800px;
+}
+
+/*////////////////////////////////////////////////////////////////////////////////////////*/
+.submainOne {
+    width: 100%;
+    height: 150px;
+    background-color: palegoldenrod;
+}
+
+.innerOne {
+    width: 700px;
+    height: 100px;
+    background-color: saddlebrown;
+    margin: auto;
+    text-align: center;
+}
+
+.shapka {
+    width: 300px;
+    height: 50px;
+    background-color: white;
+    margin: auto;
+
+}
+
+/*////////////////////////////////////////////////////////////////////////////////////////*/
+.submainTwo {
+    width: 100%;
+    height: 120px;
+
+}
+
+.menu {
+    float: left;
+    width: 20%;
+    height: 120px;
+    text-align: center;
+    font-size: 35px;
+}
+
+.oneM {
+    background-color: #a1d0ed
+}
+
+.twoM {
+    background-color: cornflowerblue
+}
+
+.threeM {
+    background-color: bisque
+}
+
+.fourM {
+    background-color: #ff8aa0
+}
+
+.fiveM {
+    background-color: darkviolet
+}
+
+/*////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+.submainThree {
+    width: 100%;
+    height: 375px;
+}
+
+.menuT {
+    float: left;
+    height: 100%;
+    width: 33%;
+}
+
+/*/////////////////////*/
+.oneT {
+    background-color: green;
+}
+
+.text {
+    width: 50%;
+    height: 50px;
+    background-color: #cccccc;
+    margin: 10px auto;
+    text-align: center;
+    font-size: 50px;
+}
+
+.brownPink {
+    width: 40%;
+    height: 302px;
+    margin: auto;
+}
+
+.oneText {
+    width: 100%;
+    height: 20%;
+    background-color: saddlebrown;
+    text-align: center;
+    float: left;
+
+}
+
+.twoText {
+    width: 50%;
+    height: 80%;
+    background-color: pink;
+    text-align: center;
+    float: left;
+}
+
+.threeText {
+    width: 50%;
+    height: 80%;
+    background-color: palegoldenrod;
+    text-align: center;
+    float: left;
+
+
+}
+
+/*/////////////////////*/
+
+.twoT {
+}
+
+.A {
+    width: 100%;
+    height: 16%;
+    background-color: darkcyan;
+    text-align: center;
+
+}
+
+
+/*//////*/
+.vertical1 {
+    width: 33.333%;
+    height: 84%;
+    background-color: #73d1ff;
+    text-align: center;
+    float: left;
+}
+
+.vertical1B1B2 {
+    width: 100%;
+    height: 70%;
+    margin-top: 76.5px;
+}
+
+.vertical1B1 {
+    width: 50%;
+    height: 100%;
+    background-color: #a44531;
+    text-align: center;
+    float: left;
+
+}
+
+.vertical1B2 {
+
+    width: 50%;
+    height: 70%;
+    background-color: #92a40e;
+    text-align: center;
+    float: left;
+    margin-top: 66px;
+
+}
+
+/*//////*/
+
+.vertical2 {
+    width: 33.333%;
+    height: 84%;
+    float: left;
+
+}
+
+.vertical2C1 {
+    width: 100%;
+    height: 25%;
+    background-color: silver;
+    text-align: center;
+}
+
+.vertical2C2 {
+    width: 100%;
+    height: 25%;
+    background-color: darkblue;
+    text-align: center;
+}
+
+.vertical2C3 {
+
+    width: 100%;
+    height: 25%;
+    background-color: darkviolet;
+    text-align: center;
+}
+
+.vertical2C45 {
+    width: 100%;
+    height: 25%;
+}
+
+.vertical2C4 {
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    text-align: center;
+    float: left;
+
+}
+
+.vertical2C5 {
+
+    width: 50%;
+    height: 100%;
+    background-color: #ff878f;
+    text-align: center;
+    float: left;
+}
+
+/*//////*/
+.vertical3 {
+    width: 33.334%;
+    height: 84%;
+    float: left;
+
+}
+
+.vertical3D {
+    width: 100%;
+    height: 25%;
+    background-color: #b3d4fc;
+    text-align: center;
+
+}
+
+.vertical3D1 {
+    width: 100%;
+    height: 25%;
+    background-color: cadetblue;
+    text-align: center;
+}
+
+.vertical3D3 {
+    width: 100%;
+    height: 50%;
+    background-color: peachpuff;
+    text-align: center;
+}
+
+.vertical3D2 {
+    width: 30%;
+    height: 35%;
+    background-color: lavender;
+    text-align: center;
+    margin: auto;
+}
+
+
+/*/////////////////////*/
+.threeT {
+    width: 34%;
+}
+
+.threeTOneTwoThr {
+    width: 100%;
+    height: 16%;
+}
+
+.threeTOne {
+    width: 33.333%;
+    height: 100%;
+    background-color: #80a48d;
+    text-align: center;
+    float: left;
+
+}
+
+.threeTTwo {
+    width: 33.333%;
+    height: 100%;
+    background-color: palevioletred;
+    text-align: center;
+    float: left;
+}
+
+.threeTThree {
+    width: 33.334%;
+    height: 100%;
+    background-color: orange;
+    text-align: center;
+    float: left;
+}
+
+.threeTFour {
+    width: 100%;
+    height: 15%;
+    background-color: mistyrose;
+    text-align: center;
+    float: left;
+}
+
+.threeTFive {
+    width: 150px;
+    height: 50%;
+    background-color: red;
+    margin: auto;
+}
+
+.INthreeTFive {
+    width: 30%;
+    height: 20%;
+    background-color: black;
+    margin: 13px auto 0 auto;
+
+
+}
+
+.threeTSix {
+    width: 100%;
+    height: 15%;
+    background-color: gainsboro;
+    text-align: center;
+    float: left;
+}
+
+.threeTSeven {
+    width: 34%;
+    height: 54%;
+    background-color: #a49477;
+    float: left;
+    text-align: center;
+}
+
+.threeTEight {
+    width: 66%;
+    height: 18%;
+    background-color: #485e6e;
+    float: left;
+    text-align: center;
+
+}
+
+.threeTNine {
+    width: 33%;
+    height: 18%;
+    background-color: blueviolet;
+    float: left;
+    text-align: center;
+}
+
+.threeTTen {
+    width: 33%;
+    height: 18%;
+    background-color: white;
+    float: left;
+    text-align: center;
+}
+
+.threeTEleven {
+    width: 66%;
+    height: 18%;
+    background-color: #aa87a6;
+    float: left;
+    text-align: center;
+
+}
+
+/*////////////////////////////////////////////////////////////////////////////////////////*/
+
+.submainFour {
+    width: 100%;
+    height: 155px;
+    background-color: #9a9da4;
+    text-align: center;
+    font-size: 40px;
+    clear: both;
+}
+
