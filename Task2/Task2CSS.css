@@ -4,7 +4,7 @@
 }
 
 
-.Header{
+.Header {
     width: 100%;
     height: 100px;
     background-color: aqua;
@@ -13,31 +13,110 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 5px;
+    margin-bottom: 7px;
 }
 
-.MIDDLE{
+.MIDDLE {
     width: 100%;
-    height: 600px;
-    border: 1px dotted black;
+    height: 700px;
     display: flex;
-    margin-bottom: 5px;
+    flex-flow: column wrap;
+    margin-bottom: 7px;
+}
 
+.Hero {
+    width: 40%;
+    height: 260px;
+    background-color: violet;
+    color: white;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 7px;
+    margin-right: 4px;
 
 }
 
-.Hero{}
+.mainContent {
+    width: 58.5%;
+    height: 400px;
+    background-color: #cba712;
+    color: white;
+    font-size: 45px;
+    margin-bottom: 7px;
+    text-align: center;
+    padding: 10px;
+}
 
-.mainContent{}
+.textMain{
+    margin-bottom: 15px;
+}
 
-.Sidebar{}
+.inMain {
+    font-size: 15px;
 
-.Extra{}
+}
 
-.relateImage{}
-.relatePost{}
 
-.Footer{
+.Sidebar {
+    width: 40%;
+    height: 400px;
+    background-color: forestgreen;
+    color: white;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0.25%;
+    flex-grow: 2;
+}
+
+.Extra {
+    width: 59.75%;
+    height: 200px;
+    background-color: darkgrey;
+    color: white;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 2;
+}
+
+
+
+.afterMiddle{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 7px;
+}
+
+.relateImage {
+    width: 70%;
+    height: 200px;
+    background-color: seagreen;
+    color: white;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 4px;
+}
+
+.relatePost {
+    width: 39.75%;
+    height: 200px;
+    background-color: mistyrose;
+    color: white;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Footer {
     width: 100%;
     height: 100px;
     background-color: orange;
