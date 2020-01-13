@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+H1 {
+font-weight: normal;
+}
+
+HR {
+    border: none;
+    background-color: #cb3f35;
+    height: 4px;
+    margin-bottom: 0.6em;
+}
+
+.headMarvel {
+    width: 100%;
+    height: 100px;
+    background-color: rgba(221, 217, 213, 0.9);
+    color: #cb3f35;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: fantasy;
+
+}
+
+.middleMarvel {
+    display: flex;
+}
+.middleDivLeft{
+    width: 50%;
+    height: 600px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+.middleDivRight{
+    width: 50%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bigImageDIV{
+    width: 606px;
+    height: 326px;
+    border: 1px solid rgba(0, 0, 0, 0.24);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.bigImage {
+    width: 600px;
+    height: 320px;
+}
+
+.ALLsmallImageDiv {
+    width: 608px;
+    height: 150px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-top: 30px;
+
+}
+
+.smallImageDIV{
+    width: 132px;
+    height: 72px;
+    border: 1px solid rgba(0, 0, 0, 0.24);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.smallImage {
+    width: 126px;
+    height: 66px;
+
+
+}
+/*////////////////////////////////////////////////////////////////*/
+
+.textMarvel {
+    width: 70%;
+    text-align: justify;
+    font-family: Tahoma, Times, serif;
+    line-height: 1.8;
+    margin-top: 35px;
+
+}
