@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.batteries {
+    flex-basis: 200px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+
+.battery {
+    flex-basis: 100%;
+    height: 60px;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.big {
+    flex-basis: 92%;
+    border: 4px solid black;
+}
+
+.divSmall {
+    display: flex;
+    align-items: center;
+}
+
+.small {
+    border: 4px solid black;
+    height: 12px;
+}
+
+.inBig1{
+    width: 20%;
+    height: 100%;
+    background-color: red;
+}
+.inBig2{
+    width: 65%;
+    height: 100%;
+    background-color: orange;
+}
+
+.big3 {
+    background-color: #239c3e;
+}
