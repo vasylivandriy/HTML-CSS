@@ -2,11 +2,17 @@
     padding: 0;
     margin: 0;
 }
-
+HTML, BODY {
+    height: 100%;
+}
 .main {
+    width: 100%;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: rgba(177, 211, 200, 0.53);
+
 }
 
 .batteries {
@@ -14,6 +20,7 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    background-color: white;
 }
 
 
@@ -22,6 +29,10 @@
     height: 60px;
     display: flex;
     margin-bottom: 10px;
+}
+
+.bat3 {
+    margin-bottom: 0;
 }
 
 .big {
@@ -39,12 +50,13 @@
     height: 12px;
 }
 
-.inBig1{
+.inBig1 {
     width: 20%;
     height: 100%;
     background-color: red;
 }
-.inBig2{
+
+.inBig2 {
     width: 65%;
     height: 100%;
     background-color: orange;

@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.des {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.one {
+    position: fixed;
+    left: 300px;
+}
+
+.two {
+    position: fixed;
+    left: 400px;
+}
+
+.three {
+    position: fixed;
+    left: 500px;
+}
+
+.four {
+    position: fixed;
+    left: 600px;
+
+}
+
+.des1 {
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    left: 700px;
+    bottom: 400px;
+}
+
+.one1 {
+    position: fixed;
+    left: 1000px;
+    top: 300px;
+}
+
+.two2 {
+    left: 1050px;
+    top: 350px;
+}
+
+.three3 {
+    left: 1100px;
+    top: 400px;
+}
+
+.four4 {
+    position: fixed;
+    left: 1150px;
+    top: 450px;
+
+}
