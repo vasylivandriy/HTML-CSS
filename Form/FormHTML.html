@@ -11,9 +11,8 @@
     <div class="blue"></div>
     <div class="divForm">
 
-        <h1>Sent us a message</h1>
-        <br>
-        <br>
+        <div class="divTextTop"><h1>Sent us a message</h1></div>
+
         <div>
             <form action="">
 
@@ -21,7 +20,7 @@
                     <div class="divInMain divFirstName">
                         <label for="firstName"> You first name
                             <br>
-                            <input type="text" id="firstName" size="60" placeholder="firstname" required>
+                            <input type="text" id="firstName" size="65" placeholder="firstname" required>
 
                         </label>
                     </div>
@@ -29,7 +28,7 @@
                     <div class="divInMain divLastName">
                         <label for="lastName"> You last name
                             <br>
-                            <input type="text" id="lastName" size="60"  placeholder="lastName" required>
+                            <input type="text" id="lastName" size="65"  placeholder="lastName" required>
                         </label>
 
                     </div>
@@ -37,7 +36,7 @@
                     <div class="divInMain divEmail">
                         <label for="emailAdress"> Email Address
                             <br>
-                            <input type="email" id="emailAdress" placeholder="email" required>
+                            <input type="email" id="emailAdress" size="65" placeholder="email" required>
                         </label>
 
                     </div>
@@ -45,7 +44,7 @@
                     <div class="divInMain divPhoneNumber">
                         <label for="PhoneNumber"> Phone number
                             <br>
-                            <input type="number" id="PhoneNumber" placeholder="PhoneNumber" maxlength="10" height="100" required>
+                            <input type="number" id="PhoneNumber" size="65" placeholder="PhoneNumber" maxlength="10" height="100" required>
                         </label>
 
                     </div>
@@ -57,13 +56,20 @@
     <label for="Textarea"> Write you message
         <br>
 
-        <textarea name="TextArea" id="Textarea" cols="30" rows="10"></textarea>
+        <textarea name="TextArea" id="Textarea" cols="170" rows="10"></textarea>
     </label>
 
 </div>
 
 
-<div class="divSubmit"></div>
+<div class="divSubmit">
+
+
+        <input type="submit" name="Send" id="Submit" value="Send">
+
+
+
+</div>
             </form>
 
         </div>
