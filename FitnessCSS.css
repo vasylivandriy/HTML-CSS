@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Bangers-Regular;
+    src: url("Fonts/Bangers-Regular.ttf");
+}
+
+HTML, body {
+    height: 100vh;
+    padding: 20px 20px 40px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    width: 100%;
+    height: 5%;
+    display: flex;
+    justify-content: flex-start;
+    flex-grow: 0;
+    margin-bottom: 20px;
+
+}
+
+.center {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-grow: 1;
+    flex-flow: row wrap;
+}
+
+.centerTop {
+    width: 100%;
+    height: 5%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #4b4a4b;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.divInCenterTop {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cent {
+    width: 150px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-family: 'Bangers', cursive;
+
+}
+
+.goodsCenter {
+    border-left: 0.5px solid white;
+    border-right: 0.5px solid white;
+    display: flex;
+    justify-content: center;
+}
+
+.menuCenter {
+    flex-basis: 300px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+
+}
+
+.menuC {
+    width: 100%;
+    height: 40px;
+    border: 1px solid black;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    font-family: 'Bangers-Regular', cursive;
+
+}
+
+.imageTextDiv {
+    width: 76.5%;
+    height: 88%;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.imageDiv {
+    width: 100%;
+    height: 70%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.image {
+    width: 60%;
+    height: 90%;
+}
+
+.textDiv {
+    width: 90%;
+    height: 30%;
+    display: flex;
+    align-self: center;
+    padding-top: 40px;
+    font-family: 'Amarante', cursive;
+    line-height: 1.5;
+
+}
+
+.footer {
+    width: 100%;
+    height: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 0;
+    background-color: rgba(0, 0, 0, 0.11);
+}
+
+.divInFooter {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.foot {
+    width: 150px;
+    height: 100%;
+    display: flex;
+    font-family: 'Dancing Script', cursive;
+    align-items: center;
+
+}
+
+.goodsFooter {
+    text-decoration: underline;
+}
