@@ -24,7 +24,7 @@ HTML, BODY {
 
 .divForm {
     flex-basis: 72%;
-    border: 1px solid red;
+
     display: flex;
     flex-flow: column wrap;
     padding: 15px;
@@ -45,34 +45,34 @@ HTML, BODY {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    border: 1px dotted green;
+
 
 }
 
 .divInMain {
     border: 1px solid red;
-    width: 45%;
-    height: 50px;
+    width: 48%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
 #firstName {
-    height: 40%;
-    width: 40em;
+    flex-basis:  100%;
     padding: 20px;
     border: 1.5px solid rgba(0, 0, 0, 0.7);
 }
 
 #lastName {
-    height: 40%;
-    width: 40em;
+    flex-basis:  35em;
     padding: 20px;
     border: 1.5px solid rgba(0, 0, 0, 0.7);
 }
 
 #emailAdress {
-    height: 40%;
-    width: 40em;
+    flex-basis:  35em;
     padding: 20px;
     border: 1.5px solid rgba(0, 0, 0, 0.7);
 
@@ -81,8 +81,7 @@ HTML, BODY {
 #PhoneNumber {
     padding: 20px;
     border: 1.5px solid rgba(0, 0, 0, 0.7);
-    height: 40%;
-    width: 40em;
+    flex-basis:  35em;
 }
 
 .divTextArea {
