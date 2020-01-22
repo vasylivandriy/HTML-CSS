@@ -1,0 +1,106 @@
+@media screen and (min-width: 320px) and (max-width: 768px) {
+
+
+    body {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .header {
+        width: 33%;
+        height: 7%;
+        border: 1px solid black;
+        display: flex;
+        flex-grow: 0;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+
+    .center {
+        width: 33%;
+        display: flex;
+        flex-grow: 1;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    .inCenterLeft {
+        width: 100%;
+        height: 20%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .inLeftTop {
+        width: 100%;
+        height: 45%;
+        background-color: darkgrey;
+        border: 1px solid black;
+        display: flex;
+        flex-grow: 0;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .inLeftBottom {
+        width: 100%;
+        background-color: palevioletred;
+        border: 1px solid black;
+        display: flex;
+        flex-grow: 1;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .inCenterRight {
+        height: 80%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+
+    .inRightTop {
+        width: 100%;
+        height: 90%;
+        border: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+
+    }
+
+    .inRightBottom {
+        width: 100%;
+        height: 15%;
+        background-color: paleturquoise;
+        border: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer {
+        width: 33%;
+        height: 7%;
+        border: 1px solid black;
+        display: flex;
+        flex-grow: 0;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15px;
+    }
+
+}
