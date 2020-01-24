@@ -5,7 +5,7 @@ function task3() {
     let pricePencil=3.5;
 
     document.write("Price of all pens are equal: ", numberPen*pricePen);
-    document.write("<br\/>Price of all pencils are equal: ", numberPencil*pricePencil);
+    document.write("<br\/> Price of all pencils are equal: ", numberPencil*pricePencil);
 
 
 
