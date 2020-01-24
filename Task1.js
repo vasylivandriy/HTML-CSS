@@ -1,9 +1,8 @@
-function task1()
-{
+function task1() {
     let city;
-    city="Kyiv";
-    city="Lviv";
-    let address=city;
+    city = "Kyiv";
+    city = "Lviv";
+    let address = city;
     alert(city);
 
 }
