@@ -45,7 +45,7 @@ function t1Condition() {
     else countFalse += 1;
 
     if (countTrue < 4) level = 'низький';
-    if (countTrue > 4 || countFalse < 7) level = 'середній';
+    if (countTrue > 4 && countFalse < 7) level = 'середній';
     if (countTrue >= 7) level = 'високий';
 
 
