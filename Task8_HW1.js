@@ -2,6 +2,7 @@ function task8HW1() {
 
     let num = +prompt("Input please number");
     let deg = +prompt("Input please degree of number");
+
     let res = 1;
     let degN;
     let numN;
