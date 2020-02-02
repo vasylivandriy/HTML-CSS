@@ -1,8 +1,8 @@
 let addArrAfterPos = function (arr, arrToPaste, n) {
 
-    let res = arr.splice(n, 0, ...arrToPaste);
+    arr.splice(n, 0, ...arrToPaste);
 
-    console.log(res);
+    console.log(arr);
 
 };
 
