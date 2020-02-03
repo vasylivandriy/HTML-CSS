@@ -85,17 +85,17 @@ window.onload = function () {
     aOne.text = prompt('Input first link please');
 
     aOne.style.color = 'red';
-    aOne.hreflang = 'http://google.com';
+    aOne.href = 'http://google.com';
 
     aTwo.text = prompt('Input first link please');
 
-    aTwo.style.color = 'red';
-    aTwo.hreflang = 'http://google.com';
+    aTwo.style.color = 'grey';
+    aTwo.href = 'http://google.com';
 
     aThree.text = prompt('Input first link please');
 
-    aThree.style.color = 'red';
-    aThree.hreflang = 'http://google.com';
+    aThree.style.color = 'green';
+    aThree.href = 'http://google.com';
 
 
 
