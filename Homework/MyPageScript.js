@@ -3,6 +3,7 @@ window.onload = function () {
     let bodyColor = prompt('Input body color please', 'bisque');
     let bodyFontWeight = prompt('Input body font weight please', 'bold');
     let bodyFontStyle = prompt('Input body font style please', 'italic');
+    let bodyHeight = prompt('Input body height please', '100vh');
     let divHOneFontSize = prompt('Input font size of div h1  please', '2em');
     let hOneFontSize = prompt('Input font size of h1  please', '25px');
     let textLineHeight = prompt('Input text line weight please', '2rem');
@@ -19,7 +20,7 @@ window.onload = function () {
     body.style.margin = "0";
     body.style.padding = "0";
     body.style.width = "100%";
-    body.style.height = "100vh";
+    body.style.height = bodyHeight;
 
     let divHOne = document.getElementById('divHOne');
     divHOne.style.display = 'flex';
@@ -82,29 +83,28 @@ window.onload = function () {
     liInOlTwo.append(aTwo);
     liInOlThree.append(aThree);
 
-    aOne.text = prompt('Input first link please');
-
+    let one = aOne.text = prompt('Input first link please');
+    if (one.slice(-3, 0) !== '.ua') {
+        one = one + '.ua';
+    }
     aOne.style.color = 'red';
-    aOne.href = 'http://google.com';
+    aOne.href = 'http://' + one;
 
-    aTwo.text = prompt('Input first link please');
 
+    let two = aTwo.text = prompt('Input second link please');
+    if (two.slice(-3, 0) !== '.ua') {
+        two = two + '.ua';
+    }
     aTwo.style.color = 'grey';
-    aTwo.href = 'http://google.com';
+    aTwo.href = 'http://' + two;
 
-    aThree.text = prompt('Input first link please');
 
+    let three = aThree.text = prompt('Input third link please');
+    if (three.slice(-3, 0) !== '.ua') {
+        three = three + '.ua';
+    }
     aThree.style.color = 'green';
-    aThree.href = 'http://google.com';
-
-
-
-
-
-
-
-
-
+    aThree.href = 'http://' + three;
 
 };
 
