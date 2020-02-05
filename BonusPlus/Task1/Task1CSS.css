@@ -12,23 +12,11 @@ body {
 
 }
 
-#box1 {
+.box {
     width: 20%;
     height: 40%;
     border: 8px ridge deepskyblue;
     display: flex;
 }
 
-#box2 {
-    width: 20%;
-    height: 40%;
-    border: 8px ridge deepskyblue;
-    display: flex;
-}
 
-#box3 {
-    width: 20%;
-    height: 40%;
-    border: 8px ridge deepskyblue;
-    display: flex;
-}

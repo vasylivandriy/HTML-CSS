@@ -1,16 +1,12 @@
-// window.onload = function () {
+window.onload = function () {
 
-   // let  divOne = prompt('Input code of a color for div1');
-    // let divTwo = prompt('Input code of a color for div2');
-    // let divThree = prompt('Input code of a color for div3');
+    let boxI = document.getElementsByClassName('box');
+
+    for (let i = 1; i < 4; i++) {
+
+        boxI[i - 1].style.backgroundColor = prompt(`Input code of a color for div${i}`);
+
+    }
 
 
-
-//         document.getElementsByClassName('box')[0].style.backgroundColor = 'red';
-//
-//
-//
-//
-//
-//
-// };
+};
