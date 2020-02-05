@@ -4,11 +4,11 @@ window.onload = function () {
     let overM = document.getElementById('color');
     let i = 0;
 
-    document.getElementById('color').onmouseleave = () => {
+    overM.onmouseleave = () => {
         overM.style.backgroundColor = 'darkviolet';
     };
 
-    document.getElementById('color').onmouseover = () => {
+    overM.onmouseover = () => {
         if (i === 7) {
             i = 0;
         }
@@ -17,5 +17,12 @@ window.onload = function () {
 
     };
 
+    overM.onmousedown = () => {
+        overM.style.backgroundColor = 'darkgreen';
+    };
+
+    overM.onmouseup = () => {
+        overM.style.backgroundColor = 'yellow';
+    };
 
 };

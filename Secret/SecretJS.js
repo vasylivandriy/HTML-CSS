@@ -22,13 +22,15 @@ window.onload = function () {
         sec.append(text);
     };
 
-    sec.onclick = () => {
+    sec.onmousedown = () => {
         sec.style.backgroundColor = 'black';
         sec.style.color = 'white';
         sec.style.border = '8px ridge yellow';
-        sec.innerHTML = '';
+        sec.innerText = '';
         sec.append(textClick);
     };
+
+    sec.onmouseup = sec.onmouseover;
 
 
 };
