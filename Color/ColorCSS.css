@@ -1,0 +1,15 @@
+*{padding: 0;
+margin: 0;}
+body{
+   width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+#color{
+    width: 30%;
+    height: 30%;
+border: 3px solid black;
+    background-color: darkviolet;
+}
