@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#box1 {
+    width: 20%;
+    height: 40%;
+    border: 8px ridge deepskyblue;
+    display: flex;
+}
+
+#box2 {
+    width: 20%;
+    height: 40%;
+    border: 8px ridge deepskyblue;
+    display: flex;
+}
+
+#box3 {
+    width: 20%;
+    height: 40%;
+    border: 8px ridge deepskyblue;
+    display: flex;
+}
