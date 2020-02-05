@@ -18,6 +18,7 @@ window.onload = function () {
     colors.forEach((value, index) => {
         alert(value);
         document.getElementsByTagName('li')[index].style.backgroundColor = value;
+
     });
 
 
